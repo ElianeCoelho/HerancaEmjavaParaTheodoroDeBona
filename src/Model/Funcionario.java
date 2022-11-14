@@ -1,5 +1,4 @@
 package Model;
-
 import java.sql.Date;
 
 public class Funcionario extends Pessoa{

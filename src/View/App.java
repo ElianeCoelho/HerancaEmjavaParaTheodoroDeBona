@@ -1,20 +1,21 @@
 package View;
 
 import Model.Funcionario;
-import Model.Pessoa;
+import Model.Professor;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+      //  System.out.println("Hello, World!");
+      //  Pessoa pessoa = new Pessoa();
+       Professor prof = new Professor();
+        prof.setNomePessoa("Josélia da costa");   
+       Funcionario func = new Funcionario();
         
-        Pessoa pessoa = new Pessoa();
-        Funcionario func = new Funcionario();
-
-        pessoa.setNomePessoa("Eliane");
-        func.setNomePessoa("José");
         
-        System.out.println(pessoa.getNomePessoa());
-        System.out.println(func.getNomePessoa());
+      
+        func.setNomePessoa("Jóse grandão");
+       System.out.println(func.getNomePessoa());
+       System.out.println(prof.getNomePessoa());
     
               
     }

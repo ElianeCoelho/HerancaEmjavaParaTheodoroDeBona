@@ -4,11 +4,12 @@ import java.sql.Date;
 
 public class Pessoa {
   int idPessoa;
-  String nomePessoa;  
+  String nomePessoa;
   Date dnPessoa;
   String cpfPessoa;
 
-  public Pessoa(){}
+  public Pessoa() {
+  }
 
   public Pessoa(int idPessoa, String nomePessoa, Date dnPessoa, String cpfPessoa) {
     this.idPessoa = idPessoa;
@@ -49,8 +50,4 @@ public class Pessoa {
     this.cpfPessoa = cpfPessoa;
   }
 
-  
-  
-
-    
 }
